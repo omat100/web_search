@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Enigne</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+    <div class="bg-white p-8 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold text-blue-600 text-center">Web Engine</h1>
+        <form action="/search" method="POST">
+            <div class="flex items-center">
+                <input
+                 name="user_query"
+                 class="border rounded-l-md bg-gray-200 px-3 mt-4 h-8 mx-0 w-64" 
+                 placeholder="Serach"/>
+                <button type="submit" class="rounded-r-md bg-blue-600 h-8 w-16 mt-4 mx-0 text-gray-100">Go</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
