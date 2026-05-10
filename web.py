@@ -5,12 +5,6 @@ class Web:
         pass
 
     def search_from_arrays(self, sentence, max_results=7):
-        """
-        Takes arrays of nouns and adjectives
-        Searches DuckDuckGo
-        Returns structured results
-        """
-
         results = {}
 
         with DDGS() as ddgs:
