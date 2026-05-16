@@ -1,4 +1,5 @@
 # Web Search Engine
+<img width="1751" height="958" alt="image" src="https://github.com/user-attachments/assets/ac524fcd-356f-4e26-9847-199b5b203786" />
 
 A lightweight web search tool built with Flask and the DuckDuckGo Search API. Type a query, get results — no tracking, no clutter.
 
